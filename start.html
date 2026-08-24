@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="login">
+    
+    <div class="login-container">
+      <h1>Login Admin</h1>
+      <div class="input-box"><input type="text" placeholder="username" id="user" required>
+      </div>
+      <div class="input-box>"><input type="password" placeholder="password" id="password" required>
+      </div>
+      <div class="btn">
+        <button class="btn" type="button" onclick="main()">Login</button>
+      </div>
+      <div class="output-pesan">
+        <p id="pesan"></p>
+      </div>
+  </div>
+  </section>
+  <script>
+    function main() {
+      let username = document.getElementById("user").value;
+
+      let password = document.getElementById("password").value;
+
+      if (username === "admin" && password === "admin123") {
+        localStorage.setItem = "username"
+        window.location.href = "dasboard.html"
+      }else {
+        alert("Login Gagal")
+        document.getElementById("pesan").innerHTML=("Username Atau Password Salah")
+      }
+    }
+      
+  </script>
+</body>
+</html>

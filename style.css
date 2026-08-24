@@ -1,0 +1,69 @@
+body {
+      background-image: url("https://cdn.phototourl.com/free/2026-08-21-a606e230-9672-4a24-9fef-59fa57a6caff.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align: center;
+      text-transform: capitalize;
+      background-repeat: no-repeat;
+      }
+    
+    .login {
+      background-color: (0 100% 0% / 0.6313725490196078);
+      min-height: 100vh;
+      border-radius: 20px;
+      text-align: center;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+   .login-container {
+     background-color: hwb(0 100% 0% / 0.5372549019607843);
+     border: 1px solid black;
+     border-radius: 8px;
+     width: 100%;
+   }
+
+   .login h1 {
+      text-align: center;
+      color: white;
+    }
+    
+    input[type="text"], input[type="password"]{
+        width: 100%;
+        box-sizing: border-box;
+        color: white;
+        padding: 11px;
+        margin: 7px 0;
+        border: 1px solid #07070770;
+        border-radius: 8px;
+        outline: none;
+        background: #ffffff20
+        
+    }
+  
+    input::placeholder{
+      color: white;
+    }
+    .btn {
+      background-color: blue;
+      background-size: 1px;
+      color: white;
+      padding: 5px 10px;
+      border: 1px solid blue;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: center;
+      width: 60px;
+      height: 28px;
+      display: block;
+      margin: 0 auto;
+      
+   }
+    p {
+      color: hwb(0 100% 0%)
+    }
